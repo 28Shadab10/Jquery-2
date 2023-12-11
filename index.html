@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jquery 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="add_product_form">
+        <label for="product_sku">
+          <span>Product SKU</span>
+          <input type="text" name="product_sku" id="pSku" />
+        </label>
+        <label for="product_name">
+          <span>Product Name</span>
+          <input type="text" name="product_name" id="pName" />
+        </label>
+        <label for="product_price">
+          <span>Product Price</span>
+          <input type="text" name="product_price" id="pPrice" />
+        </label>
+        <label for="product_quantity">
+          <span>Product Quantity</span>
+          <input type="number" name="product_quantity" id="pQuantity" />
+        </label>
+        <p class="submit">
+          <input
+            type="button"
+            name="add_product"
+            value="Add Product"
+            id="addProductBtn"
+          />
+        </p>
+      </div>
+      <div id="message">
+        <p class="error"><b>There is some problem</b></p>
+        <p class="success"><b>Product Added Successfully</b></p>
+      </div>
+      <div id="wrapper">
+        <table class="info_table">
+          <thead>
+            <tr>
+              <th>SKU</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th colspan="2">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>101</td>
+              <td>Product 101</td>
+              <td>$150.00</td>
+              <td>50</td>
+              <td><a href="#">Edit</a></td>
+              <td><a href="">Delete</a></td>
+            </tr>
+            <tr>
+              <td>102</td>
+              <td>Product 102</td>
+              <td>$100.00</td>
+              <td>20</td>
+              <td><a href="#">Edit</a></td>
+              <td><a href="">Delete</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

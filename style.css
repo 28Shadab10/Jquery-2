@@ -1,0 +1,46 @@
+#container {
+    margin: 50px;
+    width: 35%;
+  }
+  label {
+    display: block;
+    font-size: medium;
+  }
+  #addProductBtn {
+    padding: 10px 10px ;
+    background-color: rgb(247, 242, 242);
+    border: none;
+    font-size: medium;
+  }
+  label,
+  span {
+    padding: 20px;
+    font-size: large;
+  }
+  input {
+    float: right;
+  }
+  #new_container {
+    padding: 10px;
+    margin: 40px;
+  }
+  th,
+  td {
+    padding: 0px 20px;
+  }
+  #message {
+    margin-left: 65px;
+    font-size: large;
+    margin: 20px 0px;
+    padding: 20px;
+  }
+  .error {
+    background-color:red;
+    margin: 20px 0px;
+    padding: 10px 5px;
+  }
+  .success {
+    background-color: green;
+    margin: 20px 0px;
+    padding: 10px 5px;
+  }
